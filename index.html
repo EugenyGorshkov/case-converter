@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Конвертер падежей</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <main class="page">
+                <div class="page__input main-input">
+                    <div class="main-input__row">
+                        <h1>Конвертер падежей</h1>
+                    </div>
+                    <div class="main-input__row">
+                        <div class="main-input__column">
+                            <p class="main-input__subtitle">Введите слово в именительном падеже</p>
+                            <input class="main-input__input" type="text" placeholder="Стол" >        
+                        </div>
+                        <div class="main-input__column">
+                            <p class="main-input__subtitle">Выберете падеж</p>
+                            <select class="main-input__select" name="" id="">
+                                <option value="im">Им-й.</option>
+                                <option value="rod">Род-й.</option>
+                                <option value="dat">Дат-й.</option>
+                                <option value="vin">Ви-й.</option>
+                                <option value="tv">Тв-й.</option>
+                                <option value="pr">Пр-й.</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="main-input__row">
+                        <div class="main-input__output">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="main-input__row">
+                        <button class="main-input__button">Склонить слово</button>
+                    </div>
+
+                </div>
+            </main>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
